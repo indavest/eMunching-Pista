@@ -187,6 +187,11 @@
 #define FACEBOOKSHAREMESSAGE @"This is absolutely fabulous!"
 
 
+// Contact Us constants
+//_____________________________________________________________________________________________________
+
+#define CALLUSTEXT @"Call eMunching?"
+
 
 // Branding and version strings
 //_____________________________________________________________________________________________________
