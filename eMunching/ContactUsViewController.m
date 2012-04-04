@@ -122,7 +122,8 @@
     }
     
     //Set colors from templates
-    [self.view setBackgroundColor:BACKGROUNDCOLOR]; 
+    [m_scrollView setBackgroundColor:[UIColor clearColor]]; 
+    [self.view setBackgroundColor :[UIColor colorWithPatternImage:[UIImage imageNamed:@"app_background.png"]]];
     [self.navigationController.navigationBar setTintColor:TINTCOLOR]; 
     
     [m_website            setTextColor:TEXTCOLOR1];

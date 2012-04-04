@@ -53,8 +53,8 @@
     [super viewDidLoad];
     
     //Set colors from templates    
-    [self.view setBackgroundColor:BACKGROUNDCOLOR];
-    [m_searchResultsTable setBackgroundColor:BACKGROUNDCOLOR];
+ 
+    [self.view setBackgroundColor :[UIColor colorWithPatternImage:[UIImage imageNamed:@"app_background.png"]]];  //  [m_searchResultsTable setBackgroundColor:BACKGROUNDCOLOR];
     [self.navigationController.navigationBar setTintColor:TINTCOLOR];   
     // Do any additional setup after loading the view from its nib.
 }

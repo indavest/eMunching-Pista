@@ -122,8 +122,7 @@
     [m_messageLabel setZFont:[[ApplicationManager instance].fontManager zFontWithName:REGULARFONT pointSize:10.0f]];
     
     //Set colors from templates  
-    [self.view setBackgroundColor:BACKGROUNDCOLOR];
-    [m_orderTable setBackgroundColor:BACKGROUNDCOLOR];
+    [self.view setBackgroundColor :[UIColor colorWithPatternImage:[UIImage imageNamed:@"app_background.png"]]];  //  [m_orderTable setBackgroundColor:BACKGROUNDCOLOR];
     [m_toolBarUp   setTintColor:TINTCOLOR];
     [m_toolBarDown setTintColor:TINTCOLOR];
     

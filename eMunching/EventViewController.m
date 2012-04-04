@@ -66,8 +66,8 @@
     [self getEvents];
     
     //Set colors from templates
-    [self.view setBackgroundColor:BACKGROUNDCOLOR];
-    [m_eventsTable setBackgroundColor:BACKGROUNDCOLOR];
+    [self.view setBackgroundColor :[UIColor colorWithPatternImage:[UIImage imageNamed:@"app_background.png"]]];
+  //  [m_eventsTable setBackgroundColor:BACKGROUNDCOLOR];
     [self.navigationController.navigationBar setTintColor:TINTCOLOR];   
 }
 

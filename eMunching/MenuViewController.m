@@ -96,9 +96,10 @@
     [self.elementsToParse addObject:@"GroupImage"];
     
     //Set colors from templates
-    [self.view setBackgroundColor:BACKGROUNDCOLOR];
-    [m_menuGroupTable setBackgroundColor:BACKGROUNDCOLOR];
-    [m_menuTypeSelector setBackgroundColor:BACKGROUNDCOLOR];
+     
+    [self.view setBackgroundColor :[UIColor colorWithPatternImage:[UIImage imageNamed:@"app_background.png"]]];
+   // [m_menuGroupTable setBackgroundColor:BACKGROUNDCOLOR];
+   // [m_menuTypeSelector setBackgroundColor:BACKGROUNDCOLOR];
     [self.navigationController.navigationBar setTintColor:TINTCOLOR]; 
     
     //[self GetRestaurantsMenuItemGroups];

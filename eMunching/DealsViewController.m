@@ -73,7 +73,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -127,9 +127,9 @@
     [self.elementsToParse addObject:@"ItemImage3"];
     
     //Set colors from templates
-    [self.view setBackgroundColor:BACKGROUNDCOLOR];
-    [m_currentSpecialsTable setBackgroundColor:BACKGROUNDCOLOR];
-    [m_specialSelector setBackgroundColor:BACKGROUNDCOLOR];
+    [self.view setBackgroundColor :[UIColor colorWithPatternImage:[UIImage imageNamed:@"app_background.png"]]];
+ // [m_currentSpecialsTable setBackgroundColor:BACKGROUNDCOLOR];
+ //   [m_specialSelector setBackgroundColor:BACKGROUNDCOLOR];
     [self.navigationController.navigationBar setTintColor:TINTCOLOR];   
 }
 
@@ -488,7 +488,7 @@ didReceiveResponse:(NSURLResponse *) response {
             [self startImageDownload:currentSpecial  forIndexPath:indexPath];
         }
         // if a download is deferred or in progress, return a placeholder image
-        [[tableCell specialImage] setImage:[UIImage imageNamed:@"blank_loading.png"]];
+        [[tableCell specialImage] setImage:[UIImage imageNamed:@"cell_loading.png"]];
     }
     else
     {

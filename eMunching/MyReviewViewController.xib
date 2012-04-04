@@ -59,7 +59,7 @@
 					<object class="IBUIButton" id="441162102">
 						<reference key="NSNextResponder" ref="296908788"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{15, 11.5}, {290, 61}}</string>
+						<string key="NSFrame">{{15, 11.5}, {290, 55}}</string>
 						<reference key="NSSuperview" ref="296908788"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="305281888"/>
@@ -105,7 +105,10 @@
 						<string key="NSFrame">{{15, 95}, {290, 254}}</string>
 						<reference key="NSSuperview" ref="296908788"/>
 						<reference key="NSWindow"/>
-						<reference key="IBUIBackgroundColor" ref="723132078"/>
+						<object class="NSColor" key="IBUIBackgroundColor" id="138780196">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MCAwAA</bytes>
+						</object>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIAlwaysBounceVertical">YES</bool>
@@ -127,7 +130,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">User Reviews </string>
+						<string key="IBUIText">User Reviews</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAAA</bytes>
@@ -170,10 +173,7 @@
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="626403610"/>
-				<object class="NSColor" key="IBUIBackgroundColor">
-					<int key="NSColorSpace">1</int>
-					<bytes key="NSRGB">MC44NTQ5MDE5NjA4IDAuODU0OTAxOTYwOCAwLjg1NDkwMTk2MDgAA</bytes>
-				</object>
+				<reference key="IBUIBackgroundColor" ref="138780196"/>
 				<object class="IBUISimulatedNavigationBarMetrics" key="IBUISimulatedTopBarMetrics">
 					<bool key="IBUIPrompted">NO</bool>
 				</object>
@@ -432,8 +432,8 @@
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>{303, 377}</string>
-				<string>{580, 123}</string>
-				<string>{290, 61}</string>
+				<string>{580, 111}</string>
+				<string>{290, 55}</string>
 			</object>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">933</string>

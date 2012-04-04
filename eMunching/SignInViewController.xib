@@ -269,10 +269,9 @@
 					<object class="IBUILabel" id="880494936">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{128, 380}, {64, 21}}</string>
+						<string key="NSFrame">{{126, 382}, {64, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
@@ -375,6 +374,10 @@
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">highlight_field.png</string>
 						</object>
+						<object class="NSCustomResource" key="IBUISelectedBackgroundImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">highlight_field_pressed.png</string>
+						</object>
 						<object class="IBUIFontDescription" key="IBUIFontDescription">
 							<string key="name">Helvetica-Bold</string>
 							<string key="family">Helvetica</string>
@@ -423,8 +426,8 @@
 				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="725436488"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
-					<int key="NSColorSpace">1</int>
-					<bytes key="NSRGB">MC44NTQ5MDE5NjA4IDAuODU0OTAxOTYwOCAwLjg1NDkwMTk2MDgAA</bytes>
+					<int key="NSColorSpace">3</int>
+					<bytes key="NSWhite">MCAwAA</bytes>
 				</object>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -725,6 +728,7 @@
 					<string>62.CustomClassName</string>
 					<string>62.IBPluginDependency</string>
 					<string>65.IBPluginDependency</string>
+					<string>65.IBUIButtonInspectorSelectedStateConfigurationMetadataKey</string>
 					<string>66.CustomClassName</string>
 					<string>66.IBPluginDependency</string>
 					<string>7.IBPluginDependency</string>
@@ -756,6 +760,7 @@
 					<string>FontLabel</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<real value="2"/>
 					<string>FontLabel</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -933,12 +938,14 @@
 				<string>button_saved_order_normal.png</string>
 				<string>button_saved_order_pressed.png</string>
 				<string>highlight_field.png</string>
+				<string>highlight_field_pressed.png</string>
 				<string>text_field.png</string>
 			</object>
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>{290, 61}</string>
 				<string>{290, 61}</string>
+				<string>{298, 31}</string>
 				<string>{298, 31}</string>
 				<string>{298, 31}</string>
 			</object>

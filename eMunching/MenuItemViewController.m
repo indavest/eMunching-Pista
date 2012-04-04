@@ -130,7 +130,7 @@
         }
         else
         {
-            picture = [[RoundCorneredUIImageView alloc] initWithImage:[UIImage imageNamed:@"blank_loading.png"]];
+            picture = [[RoundCorneredUIImageView alloc] initWithImage:[UIImage imageNamed:@"scroll_loading.png"]];
         }
         
         [picture setFrame:frame];
@@ -179,7 +179,7 @@
     [myOrderButton release];
     
     //Set colors from templates
-    [self.view setBackgroundColor:BACKGROUNDCOLOR];
+    [self.view setBackgroundColor :[UIColor colorWithPatternImage:[UIImage imageNamed:@"app_background.png"]]];
     [self.navigationController.navigationBar setTintColor:TINTCOLOR];   
     
     [m_itemTitle setTextColor:TEXTCOLOR1];

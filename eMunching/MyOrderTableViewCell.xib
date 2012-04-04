@@ -68,6 +68,10 @@
 								<reference key="NSNextKeyView" ref="1062144265"/>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+								<object class="NSCustomResource" key="IBUIImage">
+									<string key="NSClassName">NSImage</string>
+									<string key="NSResourceName">cell_loading.png</string>
+								</object>
 							</object>
 							<object class="IBUILabel" id="1062144265">
 								<reference key="NSNextResponder" ref="656117652"/>
@@ -75,7 +79,6 @@
 								<string key="NSFrame">{{89, 10}, {215, 21}}</string>
 								<reference key="NSSuperview" ref="656117652"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">7</int>
@@ -192,7 +195,7 @@
 						<reference key="NSSuperview" ref="628129059"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="182654685"/>
-						<object class="NSColor" key="IBUIBackgroundColor">
+						<object class="NSColor" key="IBUIBackgroundColor" id="985134535">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MCAwAA</bytes>
 						</object>
@@ -207,6 +210,7 @@
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="656117652"/>
+				<reference key="IBUIBackgroundColor" ref="985134535"/>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<int key="IBUISelectionStyle">2</int>
 				<reference key="IBUIContentView" ref="656117652"/>
@@ -427,7 +431,6 @@
 							<string>dishThumbnail</string>
 							<string>dishTitle</string>
 							<string>dishTotal</string>
-							<string>headingDishQuantity</string>
 							<string>strikeThrough</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
@@ -436,7 +439,6 @@
 							<string>UIImageView</string>
 							<string>FontLabel</string>
 							<string>RoundCorneredUIImageView</string>
-							<string>FontLabel</string>
 							<string>FontLabel</string>
 							<string>FontLabel</string>
 							<string>UIImageView</string>
@@ -452,7 +454,6 @@
 							<string>dishThumbnail</string>
 							<string>dishTitle</string>
 							<string>dishTotal</string>
-							<string>headingDishQuantity</string>
 							<string>strikeThrough</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
@@ -479,10 +480,6 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">dishTotal</string>
-								<string key="candidateClassName">FontLabel</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">headingDishQuantity</string>
 								<string key="candidateClassName">FontLabel</string>
 							</object>
 							<object class="IBToOneOutletInfo">
@@ -519,11 +516,13 @@
 			<object class="NSArray" key="dict.sortedKeys">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>StrikeThrough.png</string>
+				<string>cell_loading.png</string>
 				<string>order.png</string>
 			</object>
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>{41, 20}</string>
+				<string>{120, 83}</string>
 				<string>{310, 64}</string>
 			</object>
 		</object>

@@ -126,7 +126,6 @@
 								<string key="NSFrame">{{7, 82}, {305, 21}}</string>
 								<reference key="NSSuperview" ref="481294675"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">7</int>
@@ -145,7 +144,7 @@
 						<reference key="NSSuperview" ref="4076864"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="758824693"/>
-						<object class="NSColor" key="IBUIBackgroundColor">
+						<object class="NSColor" key="IBUIBackgroundColor" id="887976613">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MCAwAA</bytes>
 						</object>
@@ -160,6 +159,7 @@
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="481294675"/>
+				<reference key="IBUIBackgroundColor" ref="887976613"/>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<reference key="IBUIContentView" ref="481294675"/>
 				<real value="111" key="IBUIRowHeight"/>

@@ -75,7 +75,7 @@
 #define BACKGROUNDCOLOR  [UIColor colorWithRed:218.0/255.0 green:218.0/255.0 blue:218.0/255.0 alpha:1]
 
 // To change the tint of the navigation bar
-#define TINTCOLOR        [UIColor colorWithRed:138.0/255.0 green:120.0/255.0 blue:97.0/255.0 alpha:1]
+#define TINTCOLOR        [UIColor colorWithRed:107.0/255.0 green:146.0/255.0 blue:111.0/255.0 alpha:1]
 
 
 // Text color 1 (Black)

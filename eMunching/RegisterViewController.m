@@ -91,8 +91,8 @@
     [m_location setText:[[[ApplicationManager instance].dataCacheManager preferredLocation] locationName]];
     
     //Set colors from templates   
-    [self.view setBackgroundColor:BACKGROUNDCOLOR];
-    [m_scrollView setBackgroundColor:BACKGROUNDCOLOR];
+    [m_scrollView setBackgroundColor:[UIColor clearColor]]; 
+    [self.view setBackgroundColor :[UIColor colorWithPatternImage:[UIImage imageNamed:@"app_background.png"]]];
     [m_navBar setTintColor:TINTCOLOR];
     
     [m_emailHeader     setTextColor:TEXTCOLOR2];

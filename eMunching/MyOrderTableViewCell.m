@@ -54,7 +54,7 @@
     }
     else
     {
-        [m_dishThumbnail setImage:[UIImage imageNamed:@"blank_loading.png"]];
+        [m_dishThumbnail setImage:[UIImage imageNamed:@"cell_loading.png"]];
     }
 
     [m_dishTitle setTextColor:TEXTCOLOR1];

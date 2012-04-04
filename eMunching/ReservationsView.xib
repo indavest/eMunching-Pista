@@ -380,6 +380,11 @@
 								</object>
 								<reference key="IBUINormalTitleShadowColor" ref="913769153"/>
 								<reference key="IBUINormalImage" ref="220683040"/>
+								<object class="NSCustomResource" key="IBUIHighlightedBackgroundImage" id="773594459">
+									<string key="NSClassName">NSImage</string>
+									<string key="NSResourceName">highlight_field_pressed.png</string>
+								</object>
+								<reference key="IBUISelectedBackgroundImage" ref="773594459"/>
 								<reference key="IBUIFontDescription" ref="644297059"/>
 								<reference key="IBUIFont" ref="585854271"/>
 							</object>
@@ -447,6 +452,7 @@
 								</object>
 								<reference key="IBUINormalTitleShadowColor" ref="913769153"/>
 								<reference key="IBUINormalImage" ref="220683040"/>
+								<reference key="IBUISelectedBackgroundImage" ref="773594459"/>
 								<reference key="IBUIFontDescription" ref="644297059"/>
 								<reference key="IBUIFont" ref="585854271"/>
 							</object>
@@ -488,6 +494,8 @@
 								</object>
 								<reference key="IBUINormalTitleShadowColor" ref="913769153"/>
 								<reference key="IBUINormalImage" ref="220683040"/>
+								<reference key="IBUIHighlightedBackgroundImage" ref="773594459"/>
+								<reference key="IBUISelectedBackgroundImage" ref="773594459"/>
 								<reference key="IBUIFontDescription" ref="644297059"/>
 								<reference key="IBUIFont" ref="585854271"/>
 							</object>
@@ -538,9 +546,9 @@
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="193543078"/>
-						<object class="NSColor" key="IBUIBackgroundColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC44NTQ5MDE5NjA4IDAuODU0OTAxOTYwOCAwLjg1NDkwMTk2MDgAA</bytes>
+						<object class="NSColor" key="IBUIBackgroundColor" id="920293987">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MCAwAA</bytes>
 						</object>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -551,10 +559,7 @@
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="82350592"/>
-				<object class="NSColor" key="IBUIBackgroundColor">
-					<int key="NSColorSpace">1</int>
-					<bytes key="NSRGB">MC44NTQ5MDE5NjA4IDAuODU0OTAxOTYwOCAwLjg1NDkwMTk2MDgAA</bytes>
-				</object>
+				<reference key="IBUIBackgroundColor" ref="920293987"/>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
@@ -1007,11 +1012,11 @@
 					<string>FontLabel</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<real value="1"/>
+					<real value="2"/>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<real value="1"/>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<real value="1"/>
+					<real value="2"/>
 					<string>FontLabel</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -1198,10 +1203,12 @@
 			<object class="NSArray" key="dict.sortedKeys">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>highlight_field.png</string>
+				<string>highlight_field_pressed.png</string>
 				<string>text_field.png</string>
 			</object>
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
+				<string>{298, 31}</string>
 				<string>{298, 31}</string>
 				<string>{298, 31}</string>
 			</object>

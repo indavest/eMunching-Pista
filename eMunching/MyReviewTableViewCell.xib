@@ -50,6 +50,7 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrameSize">{205, 60}</string>
 								<reference key="NSSuperview" ref="181115694"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="963959211"/>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -63,6 +64,7 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{12, 9}, {157, 41}}</string>
 								<reference key="NSSuperview" ref="181115694"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="200482480"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -93,6 +95,7 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{218, 29}, {57, 20}}</string>
 								<reference key="NSSuperview" ref="181115694"/>
+								<reference key="NSWindow"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">7</int>
@@ -119,6 +122,7 @@
 								<int key="NSvFlags">256</int>
 								<string key="NSFrame">{{270, 15}, {10, 10}}</string>
 								<reference key="NSSuperview" ref="181115694"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="150278120"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -135,6 +139,7 @@
 								<int key="NSvFlags">256</int>
 								<string key="NSFrame">{{257, 15}, {10, 10}}</string>
 								<reference key="NSSuperview" ref="181115694"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="749822450"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -148,6 +153,7 @@
 								<int key="NSvFlags">256</int>
 								<string key="NSFrame">{{244, 15}, {10, 10}}</string>
 								<reference key="NSSuperview" ref="181115694"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="55973283"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -161,6 +167,7 @@
 								<int key="NSvFlags">256</int>
 								<string key="NSFrame">{{231, 15}, {10, 10}}</string>
 								<reference key="NSSuperview" ref="181115694"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="466301844"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -174,6 +181,7 @@
 								<int key="NSvFlags">256</int>
 								<string key="NSFrame">{{218, 15}, {10, 10}}</string>
 								<reference key="NSSuperview" ref="181115694"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="401111640"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -185,8 +193,9 @@
 						</object>
 						<string key="NSFrameSize">{290, 59}</string>
 						<reference key="NSSuperview" ref="9785298"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="1072394686"/>
-						<object class="NSColor" key="IBUIBackgroundColor">
+						<object class="NSColor" key="IBUIBackgroundColor" id="858068729">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MCAwAA</bytes>
 						</object>
@@ -199,11 +208,9 @@
 				</object>
 				<string key="NSFrameSize">{290, 60}</string>
 				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="181115694"/>
-				<object class="NSColor" key="IBUIBackgroundColor">
-					<int key="NSColorSpace">1</int>
-					<bytes key="NSRGB">MSAxIDEAA</bytes>
-				</object>
+				<reference key="IBUIBackgroundColor" ref="858068729"/>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<reference key="IBUIContentView" ref="181115694"/>
 			</object>
@@ -409,7 +416,101 @@
 			<nil key="sourceID"/>
 			<int key="maxID">30</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="IBPartialClassDescription">
+					<string key="className">FontLabel</string>
+					<string key="superclassName">UILabel</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/FontLabel.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">MyReviewTableViewCell</string>
+					<string key="superclassName">UITableViewCell</string>
+					<object class="NSMutableDictionary" key="outlets">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>backgroundImage</string>
+							<string>reviewData</string>
+							<string>reviewName</string>
+							<string>star1</string>
+							<string>star2</string>
+							<string>star3</string>
+							<string>star4</string>
+							<string>star5</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>UIImageView</string>
+							<string>FontLabel</string>
+							<string>FontLabel</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+						</object>
+					</object>
+					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>backgroundImage</string>
+							<string>reviewData</string>
+							<string>reviewName</string>
+							<string>star1</string>
+							<string>star2</string>
+							<string>star3</string>
+							<string>star4</string>
+							<string>star5</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBToOneOutletInfo">
+								<string key="name">backgroundImage</string>
+								<string key="candidateClassName">UIImageView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">reviewData</string>
+								<string key="candidateClassName">FontLabel</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">reviewName</string>
+								<string key="candidateClassName">FontLabel</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">star1</string>
+								<string key="candidateClassName">UIImageView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">star2</string>
+								<string key="candidateClassName">UIImageView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">star3</string>
+								<string key="candidateClassName">UIImageView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">star4</string>
+								<string key="candidateClassName">UIImageView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">star5</string>
+								<string key="candidateClassName">UIImageView</string>
+							</object>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/MyReviewTableViewCell.h</string>
+					</object>
+				</object>
+			</object>
+		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">

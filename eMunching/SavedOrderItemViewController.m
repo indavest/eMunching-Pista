@@ -68,8 +68,8 @@
     [m_orderButtonLabel setZFont:[[ApplicationManager instance].fontManager zFontWithName:BOLDFONT pointSize:15.0f]];
     
     //Set colors from templates 
-    [self.view setBackgroundColor:BACKGROUNDCOLOR];
-    [m_savedOrderItemTable setBackgroundColor:BACKGROUNDCOLOR];
+    [self.view setBackgroundColor :[UIColor colorWithPatternImage:[UIImage imageNamed:@"app_background.png"]]];
+   // [m_savedOrderItemTable setBackgroundColor:BACKGROUNDCOLOR];
     [self.navigationController.navigationBar setTintColor:TINTCOLOR];   
 }
 

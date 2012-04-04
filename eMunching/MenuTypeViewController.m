@@ -133,8 +133,9 @@
     [self.elementsToParse addObject:@"ItemImage3"];
     
     //Set colors from templates
-    [self.view setBackgroundColor:BACKGROUNDCOLOR];
-    [m_menuTable setBackgroundColor:BACKGROUNDCOLOR];
+ 
+    [self.view setBackgroundColor :[UIColor colorWithPatternImage:[UIImage imageNamed:@"app_background.png"]]];
+  //  [m_menuTable setBackgroundColor:BACKGROUNDCOLOR];
     [self.navigationController.navigationBar setTintColor:TINTCOLOR];   
 }
 
@@ -482,7 +483,7 @@ didReceiveResponse:(NSURLResponse *) response {
             [self startImageDownload:menuItemByGroup forIndexPath:indexPath];
         }
         // if a download is deferred or in progress, return a placeholder image
-        [[tableCell specialImage] setImage:[UIImage imageNamed:@"blank_loading.png"]];
+        [[tableCell specialImage] setImage:[UIImage imageNamed:@"cell_loading.png"]];
     }
     else
     {

@@ -127,8 +127,10 @@
     m_maxDate = [[NSDate alloc] init];
     
     //Set colors from templates
-    [self.view setBackgroundColor:BACKGROUNDCOLOR];
-    [m_scrollView setBackgroundColor:BACKGROUNDCOLOR];  
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"app_background.png"]];
+     m_scrollView.backgroundColor = [UIColor clearColor];
+   // [self.view setBackgroundColor:BACKGROUNDCOLOR];
+   // [m_scrollView setBackgroundColor:BACKGROUNDCOLOR];  
     [self.navigationController.navigationBar setTintColor:TINTCOLOR];   
     
     [m_reserveEmailHeader     setTextColor:TEXTCOLOR2];

@@ -83,8 +83,7 @@
     [self getReviews];
     
     //Set colors from templates   
-    [self.view setBackgroundColor:BACKGROUNDCOLOR];
-    [self.navigationController.navigationBar setTintColor:TINTCOLOR];  
+    [self.view setBackgroundColor :[UIColor colorWithPatternImage:[UIImage imageNamed:@"app_background.png"]]];    [self.navigationController.navigationBar setTintColor:TINTCOLOR];  
     
     [m_buttonLabel setTextColor:TEXTCOLOR3];
     [m_headerLabel setTextColor:TEXTCOLOR1];

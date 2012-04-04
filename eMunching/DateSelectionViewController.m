@@ -73,8 +73,8 @@
     [m_messageLabel setText:messageString];
     
     //Set colors from templates
-    [self.view setBackgroundColor:BACKGROUNDCOLOR];
-    [m_pickerTable setBackgroundColor:BACKGROUNDCOLOR];
+    [self.view setBackgroundColor :[UIColor colorWithPatternImage:[UIImage imageNamed:@"app_background.png"]]];
+   // [m_pickerTable setBackgroundColor:BACKGROUNDCOLOR];
     [self.navigationController.navigationBar setTintColor:TINTCOLOR];   
 }
 
@@ -177,7 +177,7 @@
     
     if (self.pickerView.superview == nil)
     {
-        self.view.window.backgroundColor = [UIColor darkGrayColor];
+       self.view.window.backgroundColor = [UIColor clearColor];
         [self.view.window addSubview: self.pickerView];
         
         // size up the picker view to our screen and compute the start/end frame origin for our slide up animation

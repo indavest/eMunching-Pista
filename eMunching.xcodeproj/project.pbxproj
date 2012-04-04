@@ -16,6 +16,10 @@
 		3E561553152C2C800014819F /* scroll_loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E56154B152C2C800014819F /* scroll_loading.png */; };
 		3E561554152C2C800014819F /* scroll_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E56154C152C2C800014819F /* scroll_loading@2x.png */; };
 		3E561557152C2E400014819F /* blank_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E561556152C2E400014819F /* blank_loading@2x.png */; };
+		3ED4EA96152C502100CB9E33 /* emunching_logo_ext.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED4EA92152C502100CB9E33 /* emunching_logo_ext.png */; };
+		3ED4EA97152C502100CB9E33 /* emunching_logo_ext@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED4EA93152C502100CB9E33 /* emunching_logo_ext@2x.png */; };
+		3ED4EA98152C502100CB9E33 /* emunching_logo-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED4EA94152C502100CB9E33 /* emunching_logo-1.png */; };
+		3ED4EA99152C502100CB9E33 /* emunching_logo@2x-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED4EA95152C502100CB9E33 /* emunching_logo@2x-1.png */; };
 		A8228E38142B3A4200DCEF15 /* DateSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8228E36142B3A4200DCEF15 /* DateSelectionViewController.m */; };
 		A8228E39142B3A4200DCEF15 /* DateSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8228E37142B3A4200DCEF15 /* DateSelectionViewController.xib */; };
 		A82B3296143D690C006DBB36 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82B3294143D690C006DBB36 /* EventViewController.m */; };
@@ -292,6 +296,10 @@
 		3E56154B152C2C800014819F /* scroll_loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scroll_loading.png; path = Images/scroll_loading.png; sourceTree = "<group>"; };
 		3E56154C152C2C800014819F /* scroll_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "scroll_loading@2x.png"; path = "Images/scroll_loading@2x.png"; sourceTree = "<group>"; };
 		3E561556152C2E400014819F /* blank_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blank_loading@2x.png"; path = "Images/blank_loading@2x.png"; sourceTree = "<group>"; };
+		3ED4EA92152C502100CB9E33 /* emunching_logo_ext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emunching_logo_ext.png; path = Images/emunching_logo_ext.png; sourceTree = "<group>"; };
+		3ED4EA93152C502100CB9E33 /* emunching_logo_ext@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "emunching_logo_ext@2x.png"; path = "Images/emunching_logo_ext@2x.png"; sourceTree = "<group>"; };
+		3ED4EA94152C502100CB9E33 /* emunching_logo-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "emunching_logo-1.png"; path = "Images/emunching_logo-1.png"; sourceTree = "<group>"; };
+		3ED4EA95152C502100CB9E33 /* emunching_logo@2x-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "emunching_logo@2x-1.png"; path = "Images/emunching_logo@2x-1.png"; sourceTree = "<group>"; };
 		A8228E35142B3A4200DCEF15 /* DateSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateSelectionViewController.h; sourceTree = "<group>"; };
 		A8228E36142B3A4200DCEF15 /* DateSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateSelectionViewController.m; sourceTree = "<group>"; };
 		A8228E37142B3A4200DCEF15 /* DateSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateSelectionViewController.xib; sourceTree = "<group>"; };
@@ -426,7 +434,7 @@
 		AF1ECEDB13C8FC40000A1D60 /* AllObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllObjects.h; sourceTree = "<group>"; };
 		AF1ECEDC13C8FC40000A1D60 /* AllObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllObjects.m; sourceTree = "<group>"; };
 		AF1ECEDE13C8FCCB000A1D60 /* Objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Objects.h; sourceTree = "<group>"; };
-		AF24A80C13B5B5B600B1C046 /* Besito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Besito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF24A80C13B5B5B600B1C046 /* eMunching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eMunching.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF24A81013B5B5B600B1C046 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AF24A81213B5B5B600B1C046 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF24A81413B5B5B600B1C046 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -910,7 +918,7 @@
 		AF24A80D13B5B5B600B1C046 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF24A80C13B5B5B600B1C046 /* Besito.app */,
+				AF24A80C13B5B5B600B1C046 /* eMunching.app */,
 				AF24A83613B5B5B700B1C046 /* eMunchingTests.octest */,
 			);
 			name = Products;
@@ -1051,6 +1059,10 @@
 				FFD24750144312B90077908E /* chef_specials_pressed@2x.png */,
 				FFD24751144312B90077908E /* chef_specials.png */,
 				FFD24752144312B90077908E /* chef_specials@2x.png */,
+				3ED4EA92152C502100CB9E33 /* emunching_logo_ext.png */,
+				3ED4EA93152C502100CB9E33 /* emunching_logo_ext@2x.png */,
+				3ED4EA94152C502100CB9E33 /* emunching_logo-1.png */,
+				3ED4EA95152C502100CB9E33 /* emunching_logo@2x-1.png */,
 				FFD24753144312B90077908E /* featured_deals_pressed.png */,
 				FFD24754144312B90077908E /* featured_deals_pressed@2x.png */,
 				FFD24755144312B90077908E /* featured_deals.png */,
@@ -1347,7 +1359,7 @@
 			);
 			name = eMunching;
 			productName = eMunching;
-			productReference = AF24A80C13B5B5B600B1C046 /* Besito.app */;
+			productReference = AF24A80C13B5B5B600B1C046 /* eMunching.app */;
 			productType = "com.apple.product-type.application";
 		};
 		AF24A83513B5B5B700B1C046 /* eMunchingTests */ = {
@@ -1583,6 +1595,10 @@
 				3E561553152C2C800014819F /* scroll_loading.png in Resources */,
 				3E561554152C2C800014819F /* scroll_loading@2x.png in Resources */,
 				3E561557152C2E400014819F /* blank_loading@2x.png in Resources */,
+				3ED4EA96152C502100CB9E33 /* emunching_logo_ext.png in Resources */,
+				3ED4EA97152C502100CB9E33 /* emunching_logo_ext@2x.png in Resources */,
+				3ED4EA98152C502100CB9E33 /* emunching_logo-1.png in Resources */,
+				3ED4EA99152C502100CB9E33 /* emunching_logo@2x-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1790,7 +1806,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/eMunching\"",
 				);
-				PRODUCT_NAME = Besito;
+				PRODUCT_NAME = eMunching;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4D607B4D-18E7-43D7-A385-F275DD50BFC8";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1816,7 +1832,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/eMunching\"",
 				);
-				PRODUCT_NAME = Besito;
+				PRODUCT_NAME = eMunching;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4D607B4D-18E7-43D7-A385-F275DD50BFC8";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

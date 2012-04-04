@@ -101,8 +101,10 @@
     [self getRestaurantAboutUs];
     
     //Set colors from templates
-    [self.view setBackgroundColor:BACKGROUNDCOLOR];
-    [m_aboutUsTable setBackgroundColor:BACKGROUNDCOLOR];
+    
+    //[m_aboutUsTable setBackgroundColor:BACKGROUNDCOLOR];
+
+    [self.view setBackgroundColor :[UIColor colorWithPatternImage:[UIImage imageNamed:@"app_background.png"]]];
     [self.navigationController.navigationBar setTintColor:TINTCOLOR];   
     
     [m_hoursOfOperation setTextColor:TEXTCOLOR5];

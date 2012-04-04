@@ -56,7 +56,7 @@
     // Do any additional setup after loading the view from its nib.
     
     //Set colors from templates   
-    [self.view setBackgroundColor:BACKGROUNDCOLOR];
+    [self.view setBackgroundColor :[UIColor colorWithPatternImage:[UIImage imageNamed:@"app_background.png"]]];
     [m_navBar setTintColor:TINTCOLOR];    
     [m_confirmationPrompt     setTextColor:TEXTCOLOR5];
     [m_confirmationCodeHeader setTextColor:TEXTCOLOR2];

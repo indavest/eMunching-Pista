@@ -275,7 +275,7 @@
 							<object class="IBUIImageView" id="247606681">
 								<reference key="NSNextResponder" ref="521236112"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{77, 8}, {178, 73}}</string>
+								<string key="NSFrame">{{37, 16}, {241, 46}}</string>
 								<reference key="NSSuperview" ref="521236112"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="905166022"/>
@@ -283,7 +283,7 @@
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<object class="NSCustomResource" key="IBUIImage">
 									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">besito_logo.png</string>
+									<string key="NSResourceName">emunching_logo_ext.png</string>
 								</object>
 							</object>
 							<object class="IBUILabel" id="167299020">
@@ -1300,8 +1300,8 @@
 			<object class="NSArray" key="dict.sortedKeys">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>banner.png</string>
-				<string>besito_logo.png</string>
 				<string>bg_contacts.png</string>
+				<string>emunching_logo_ext.png</string>
 				<string>facebook.png</string>
 				<string>globe.png</string>
 				<string>mail.png</string>
@@ -1312,8 +1312,8 @@
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>{166, 58}</string>
-				<string>{178, 73}</string>
 				<string>{290, 329}</string>
+				<string>{241, 46}</string>
 				<string>{38, 38}</string>
 				<string>{40, 44}</string>
 				<string>{48, 51}</string>
