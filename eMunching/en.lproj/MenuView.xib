@@ -46,7 +46,7 @@
 						<string key="NSFrame">{{0, 5}, {320, 61}}</string>
 						<reference key="NSSuperview" ref="634561161"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="357798808"/>
+						<reference key="NSNextKeyView" ref="419782966"/>
 						<object class="NSColor" key="IBUIBackgroundColor" id="212920616">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MCAwAA</bytes>
@@ -59,6 +59,7 @@
 						<string key="NSFrame">{{0, 67}, {320, 320}}</string>
 						<reference key="NSSuperview" ref="634561161"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<reference key="IBUIBackgroundColor" ref="212920616"/>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -75,20 +76,16 @@
 						<string key="NSFrame">{{0, 8}, {320, 61}}</string>
 						<reference key="NSSuperview" ref="634561161"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="4981869"/>
+						<reference key="NSNextKeyView" ref="357798808"/>
 						<reference key="IBUIBackgroundColor" ref="212920616"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">besito_logo.png</string>
-						</object>
 					</object>
 				</object>
 				<string key="NSFrame">{{0, 44}, {320, 387}}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView" ref="419782966"/>
+				<reference key="NSNextKeyView" ref="4981869"/>
 				<reference key="IBUIBackgroundColor" ref="212920616"/>
 				<object class="IBUISimulatedNavigationBarMetrics" key="IBUISimulatedTopBarMetrics">
 					<bool key="IBUIPrompted">NO</bool>
@@ -319,10 +316,6 @@
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">besito_logo.png</string>
-			<string key="NS.object.0">{178, 73}</string>
-		</object>
 		<string key="IBCocoaTouchPluginVersion">933</string>
 	</data>
 </archive>
