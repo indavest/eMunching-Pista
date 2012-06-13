@@ -105,7 +105,7 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="IBUIViewController" id="353341086">
 							<object class="IBUINavigationItem" key="IBUINavigationItem" id="855158124">
-								<string key="IBUITitle">Besito</string>
+								<string key="IBUITitle">eMunching</string>
 								<object class="IBUIBarButtonItem" key="IBUILeftBarButtonItem" id="972774050">
 									<string key="IBUITitle">My profile</string>
 									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>

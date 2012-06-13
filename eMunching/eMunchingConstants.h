@@ -180,7 +180,7 @@
 
 #define FACEBOOKSHARELINK @"http://www.emunching.com/"
 
-#define FACEBOOKSHARENAME @"I just tried this dish at Besito and it is delicious!"
+#define FACEBOOKSHARENAME @"I just tried this dish at eMunching and it is delicious!"
 
 // While we set @message, Facebook's revised policy does not allow setting this and hence the
 // "Say something about this... " textbox will remain empty
@@ -196,7 +196,7 @@
 // Branding and version strings
 //_____________________________________________________________________________________________________
 
-#define RESTAURANTBRANDING @"Besito"
+#define RESTAURANTBRANDING @"eMunching"
 
 #define EMUNCHINGBRANDING @"powered by eMunching"
 

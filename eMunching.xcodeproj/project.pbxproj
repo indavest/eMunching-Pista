@@ -1793,8 +1793,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ranjit Kadam (EZCQQ48U69)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Indavest Ventures, LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Indavest Ventures, LLC";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1807,7 +1807,8 @@
 					"\"$(SRCROOT)/eMunching\"",
 				);
 				PRODUCT_NAME = eMunching;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4D607B4D-18E7-43D7-A385-F275DD50BFC8";
+				PROVISIONING_PROFILE = "D5C45C2E-906C-4CA0-B3E4-AA8547632030";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D5C45C2E-906C-4CA0-B3E4-AA8547632030";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1820,8 +1821,8 @@
 					"'armv6'",
 					"'armv7'",
 				);
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ranjit Kadam (EZCQQ48U69)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Indavest Ventures, LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Indavest Ventures, LLC";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "eMunching/eMunching-Prefix.pch";
@@ -1833,7 +1834,8 @@
 					"\"$(SRCROOT)/eMunching\"",
 				);
 				PRODUCT_NAME = eMunching;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4D607B4D-18E7-43D7-A385-F275DD50BFC8";
+				PROVISIONING_PROFILE = "D5C45C2E-906C-4CA0-B3E4-AA8547632030";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D5C45C2E-906C-4CA0-B3E4-AA8547632030";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
